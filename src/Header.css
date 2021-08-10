@@ -1,3 +1,35 @@
- {
-  /* Client ID: a4232efdd3f34d01b690e30c0d1279c6 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin: 20px;
+  padding: 30px;
+  width: 100%;
+}
+
+.header__left {
+  flex: 0.5;
+  min-width: 70px;
+  background-color: white;
+  color: grey;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  /* padding: 30px; */
+  /* margin: 30px; */
+}
+
+.header__left > input {
+  border: none;
+  width: 100%;
+}
+
+.header__right {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+}
+
+.header__right > h4 {
+  margin-left: 10px;
 }
